@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Nerd's. Каталог</title>
+  <link rel="shortcut icon" href="img/toad.ico" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=cyrillic" rel="stylesheet">
+  <link rel="stylesheet" href="css/symbols-nerds.css">
+  <link rel="stylesheet" href="css/catalog-style.css">
+</head>
+
+<body>
+  <!--Header-->
+  <header class="main-header">
+    <div class="container">
+      <div class="index-logo">
+        <a href="index.html"><img src="img/index-logo.png" width="139px" height="56px" alt="logo"></a>
+      </div>
+      <nav class="main-navigation">
+        <ul>
+          <li><a href="index.html">Студия</a></li>
+          <li><a href="#">Клиенты</a></li>
+          <li class="actived"><a href="#">Магазин</a></li>
+          <li><a href="#">Контакты</a></li>
+        </ul>
+      </nav>
+      <div class="cart">
+        <a href="#"><i class="icon-basket"></i>Корзина</a>
+      </div>
+      <h1>Добро пожаловать в магазин готовых макетов</h1>
+  </header>
+  <!--Main-->
+  <main class="container">
+    <section class="products">
+      <div class="products-left">
+        <form class="filter" action="index.html" method="post">
+          <legend>Стоимость:</legend>
+          <!--Drag&drop-->
+          <div class="changes">
+            <div class="range-control">
+              <div class="scale">
+                <div class="bar"></div>
+              </div>
+              <div class="toggle min-toggle"></div>
+              <div class="toggle max-toggle"></div>
+            </div>
+            <div class="price-control">
+              <label>ОТ<input class="min-price" type="text" name="" value="" placeholder="0"></label>
+              <label>ДО<input class="max-price" type="text" name="" value="" placeholder="15000"></label>
+            </div>
+          </div>
+
+          <legend>Сетка:</legend>
+          <ul>
+            <li><label><input type="radio" name="grid" checked><span class="radio-indicator"></span>Адаптивная</label></li>
+            <li><label><input type="radio" name="grid"><span class="radio-indicator"></span>Фиксированная</label></li>
+            <li><label><input type="radio" name="grid"><span class="radio-indicator"></span>Резиновая</label></li>
+          </ul>
+          <legend>Особенности:</legend>
+          <ul>
+            <li><label><input type="checkbox" name="slider" checked><span class="checkbox-indicator"></span>Слайдер</label></li>
+            <li><label><input type="checkbox" name="advantage_block"><span class="checkbox-indicator"></span>Блок преимуществ</label></li>
+            <li><label><input type="checkbox" name="news" checked><span class="checkbox-indicator"></span>Новости</label></li>
+            <li><label><input type="checkbox" name="gallery"><span class="checkbox-indicator"></span>Галерея</label></li>
+            <li><label><input type="checkbox" name="cart"><span class="checkbox-indicator"></span>Корзина</label></li>
+          </ul>
+          <button class="btn show" type="button" name="button">Показать</button>
+        </form>
+      </div>
+      <div class="products-right">
+        <div class="sorting">
+          <span class="title">Сортировать:</span>
+          <ul>
+            <li><a href="#">по цене</a></li>
+            <li><a href="#">по типу</a></li>
+            <li><a href="#">по функционалу</a></li>
+          </ul>
+          <div class="sorting-button">
+            <div class="sorting-button-down actived"></div>
+            <div class="sorting-button-up"></div>
+          </div>
+        </div>
+        <div class="products-img">
+
+          <div class="item-card">
+            <div class="header-products"></div>
+            <img src="img/sites/site1.png" width="240px" height="240px" alt="">
+            <div class="item-description">
+              <p class="item-title">AVIATOR</p>
+              <p class="item-text">Одностраничный макет с авторским дизайном</p>
+              <a class="btn item-price" href="#">8000 Р.</a>
+            </div>
+          </div>
+
+          <div class="item-card">
+            <div class="header-products"></div><img src="img/sites/site2.png" width="240px" height="240px" alt="">
+            <div class="item-description">
+              <p class="item-title">Sunset</p>
+              <p class="item-text">Интернет-магазин с личным кабинетом</p>
+              <a class="btn item-price" href="#">10000 Р.</a>
+            </div>
+          </div>
+
+          <div class="item-card">
+            <div class="header-products"></div><img src="img/sites/site3.png" width="240px" height="240px" alt="">
+            <div class="item-description">
+              <p class="item-title">FORTE</p>
+              <p class="item-text">Отличный макет для личного блога</p>
+              <a class="btn item-price" href="#">5000 Р.</a>
+            </div>
+          </div>
+
+          <div class="item-card">
+            <div class="header-products"></div><img src="img/sites/site4.png" width="240px" height="240px" alt="">
+            <div class="item-description">
+              <p class="item-title">Modern Organic THAI
+              </p>
+              <p class="item-text">Сайт для ресторана быстрого питания</p>
+              <a class="btn item-price" href="#">12000 Р.</a>
+            </div>
+          </div>
+
+          <div class="item-card">
+            <div class="header-products"></div><img src="img/sites/site5.png" width="240px" height="240px" alt="">
+            <div class="item-description">
+              <p class="item-title">AVENUE</p>
+              <p class="item-text">Макет для блога о путешествиях</p>
+              <a class="btn item-price" href="#">8000 Р.</a>
+            </div>
+          </div>
+
+          <div class="item-card">
+            <div class="header-products"></div><img src="img/sites/site6.png" width="240px" height="240px" alt="">
+            <div class="item-description">
+              <p class="item-title">DOVETAIL</p>
+              <p class="item-text">Интернет-магазин с галереей товаров</p>
+              <a class="btn item-price" href="#">14000 Р.</a>
+            </div>
+          </div>
+        </div>
+
+        <section class="paginator">
+          <div class="paginator-position">
+            <a class="actived" href="#">1</a>
+            <a href="#">2</a>
+            <a href="#">3</a>
+            <a class="next" href="#">Следующая</a>
+          </div>
+        </section>
+      </div>
+    </section>
+  </main>
+  <div class="map-wrapper">
+    <div class="location" id="yandex-map">
+      <div class="contact">
+        <b>NЁRDS DESIGN STUDIO</b>
+        <p>191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
+        <p>тел. +7 (812) 275-75-75</p>
+        <a class="btn btn-contact" href="#">Напишите нам</a>
+      </div>
+      <div class="marker">
+        <img src="img/marker.png" width="231px" height="190px" alt="marker">
+      </div>
+    </div>
+  </div>
+  <!--Footer-->
+  <footer class="main-footer">
+    <div class="container">
+      <section class="footer-social">
+        <a class="social-btn social-btn-vk" href="#"><i class="icon-vk"></i>Вконтакте</a>
+        <a class="social-btn social-btn-fb" href="#"><i class="icon-facebook"></i>Фейсбук</a>
+        <a class="social-btn social-btn-inst" href="#"><i class="icon-instagramm"></i>Инстаграм</a>
+      </section>
+      <section class="promo">
+        <h2>Давайте дружить, это выгодно!</h2>
+        <p>Скидка 10% для друзей из социальных сетей.</p>
+      </section>
+    </div>
+  </footer>
+  <script src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A097cac6d8fede4cd1b25f79202e0e1f8b2142a2c8dbc9a2de40660cf45a6be2b&amp;width=100%25&amp;height=417&amp;lang=ru_RU&amp;scroll=true&id=yandex-map"></script>
+  <script type="text/javascript">
+    var showOpacity = document.querySelector(".item-show")
+  </script>
+</body>
+
+</html>
